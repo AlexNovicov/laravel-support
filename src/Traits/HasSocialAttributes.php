@@ -16,6 +16,7 @@ trait HasSocialAttributes
      */
     public function getSocialAttribute(): SchemalessAttributes
     {
+        /** @noinspection PhpParamsInspection */
         return SchemalessAttributes::createForModel($this, 'social');
     }
 

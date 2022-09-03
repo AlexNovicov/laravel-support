@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Rinvex\Support\Traits;
 
-use Watson\Validating\Injectors\UniqueWithInjector;
-use Watson\Validating\ValidatingTrait as BaseValidatingTrait;
+use Rinvex\Support\WatsonValidating\Injectors\UniqueWithInjector;
+use Rinvex\Support\WatsonValidating\ValidatingTrait as BaseValidatingTrait;
 
 trait ValidatingTrait
 {

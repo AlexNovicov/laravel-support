@@ -10,9 +10,6 @@ use Illuminate\Support\Facades\Validator;
 
 class SupportServiceProvider extends ServiceProvider
 {
-    /**
-     * {@inheritdoc}
-     */
     public function boot()
     {
         // Add strip_tags validation rule

@@ -6,7 +6,7 @@ namespace Rinvex\Support\Traits;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
-use Spatie\Translatable\Events\TranslationHasBeenSet;
+use Spatie\Translatable\Events\TranslationHasBeenSetEvent;
 use Spatie\Translatable\HasTranslations as BaseHasTranslations;
 
 trait HasTranslations
@@ -58,7 +58,7 @@ trait HasTranslations
                 $value = [$locale = app()->getLocale() => $value];
 
                 $this->attributes[$key] = $this->asJson($value);
-                event(new TranslationHasBeenSet($this, $key, $locale, $oldValue, $value));
+                event(new TranslationHasBeenSetEvent($this, $key, $locale, $oldValue, $value));
             }
 
             return $value;
