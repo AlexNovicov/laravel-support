@@ -1,45 +1,10 @@
 {
-    "name": "rinvex/laravel-support",
+    "name": "alexnovicov/laravel-support",
     "description": "Rinvex common support helpers, contracts, and traits required by various Rinvex packages. Validator functionality, and basic controller included out-of-the-box.",
     "type": "library",
-    "keywords": [
-        "rinvex",
-        "laravel",
-        "contract",
-        "validator",
-        "timezones",
-        "mimetype",
-        "support",
-        "helper",
-        "trait"
-    ],
     "license": "MIT",
-    "homepage": "https://rinvex.com/marketplace/rinvex-support/",
-    "support": {
-        "email": "help@rinvex.com",
-        "issues": "https://github.com/rinvex/laravel-support/issues",
-        "source": "https://github.com/rinvex/laravel-support",
-        "docs": "https://github.com/rinvex/laravel-support/blob/master/README.md"
-    },
-    "authors": [
-        {
-            "name": "Rinvex LLC",
-            "homepage": "https://rinvex.com",
-            "email": "help@rinvex.com"
-        },
-        {
-            "name": "Abdelrahman Omran",
-            "homepage": "https://omranic.com",
-            "email": "me@omranic.com",
-            "role": "Project Lead"
-        },
-        {
-            "name": "The Generous Laravel Community",
-            "homepage": "https://github.com/rinvex/laravel-support/contributors"
-        }
-    ],
     "require": {
-        "php": "^8.0.0",
+        "php": ">=8.1",
         "illuminate/auth": "^9.0.0 || ^10.0.0",
         "illuminate/bus": "^9.0.0 || ^10.0.0",
         "illuminate/contracts": "^9.0.0 || ^10.0.0",
