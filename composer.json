@@ -4,16 +4,16 @@
     "type": "library",
     "license": "MIT",
     "require": {
-        "php": ">=8.1",
-        "laravel/framework": "^9.0",
-        "spatie/laravel-schemaless-attributes": "^2.3",
-        "spatie/laravel-sluggable": "^3.4",
-        "spatie/laravel-translatable": "^6.0",
-        "vinkla/hashids": "^10.0"
+        "php": "^8.2",
+        "laravel/framework": "^10.0",
+        "spatie/laravel-schemaless-attributes": "^2.4",
+        "spatie/laravel-sluggable": "^3.5",
+        "spatie/laravel-translatable": "^6.5",
+        "vinkla/hashids": "^11.0"
     },
     "require-dev": {
-        "codedungeon/phpunit-result-printer": "^0.31.0",
-        "phpunit/phpunit": "^9.5.0"
+        "codedungeon/phpunit-result-printer": "^0.32.0",
+        "phpunit/phpunit": "^10.0"
     },
     "autoload": {
         "files": [
