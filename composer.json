@@ -7,7 +7,7 @@
         "spatie/laravel-schemaless-attributes": "^2.3",
         "spatie/laravel-sluggable": "^3.4",
         "spatie/laravel-translatable": "^6.0",
-        "vinkla/hashids": "^10.0"
+        "vinkla/hashids": "^13.0"
     },
     "require-dev": {},
     "autoload": {
